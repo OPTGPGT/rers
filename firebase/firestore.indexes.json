@@ -1,0 +1,124 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "EmergencyMessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "replysent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "replySenduserSeenORnot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userid",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "EmergencyMessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "replysent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "EmergencyMessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "replysent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userid",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "replyTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "EmergencyMessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "message_Seen_by_admin",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "EmergencyMessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "senderemail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Alertmessage",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Sender_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "alerttimes",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "usercounsellingdetails",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "issubmitted",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TS",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "userSMAbnormality",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "abnclosedstatus",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TS",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

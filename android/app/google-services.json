@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6634655110",
+    "project_id": "rers-dcc88",
+    "storage_bucket": "rers-dcc88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6634655110:android:22dd3ee5451150b82f7007",
+        "android_client_info": {
+          "package_name": "com.mycompany.rers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbnihLeWoaL7FlJC9ydSWqm69nmVwEtU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
